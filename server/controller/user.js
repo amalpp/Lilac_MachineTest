@@ -37,7 +37,7 @@ module.exports = {
     }
   },
   // get user details
-  fetch: async (req, res) => {
+  fetch: async  (req, res) => {
     try {
       await userDetails
         .find()
